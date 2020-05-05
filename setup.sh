@@ -114,7 +114,7 @@ function the_end() {
 }
 
 function install() {
-    soft
+    # soft
     backup
     download_repo
     mkdirs
