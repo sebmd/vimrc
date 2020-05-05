@@ -16,6 +16,16 @@ $ cd ~/git
 $ git clone https://github.com/SebMD/vimrc
 ```
 
+```
+curl -sLf https://git.io/JfGdL | bash
+```
+
+```
+curl -sLf https://git.io/JfGdL -o setup.sh
+bash ./setup.sh
+```
+
+
 Utworzenie dowiązania symbolicznego
 
 ```
