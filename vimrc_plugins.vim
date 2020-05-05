@@ -3,6 +3,9 @@
 " ~/.vim/vimrc_plugins_conf.vim
 
 call plug#begin('~/.vim/plugged')
+Plug 'morhetz/gruvbox'
+Plug 'kristijanhusak/vim-hybrid-material'
+Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree'  " , { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
