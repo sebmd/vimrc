@@ -85,8 +85,14 @@ function instalacja_pluginow() {
     vim -c ":PlugInstall" -c ":q" -c ":q"
 }
 
+function the_end() {
+    printf "${L_BLUE}Instalacja zakończona."
+    printf "${NC}"
+}
+
 backup
 download_repo
 mkdirs
 download_plug
 instalacja_pluginow
+the_end
