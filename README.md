@@ -8,6 +8,20 @@
 
 ## Instalacja
 
+Pobranie repozytorium
+
+```
+$ mkdir ~/git
+$ cd ~/git
+$ git clone https://github.com/SebMD/vimrc
+```
+
+Utworzenie dowiązania symbolicznego
+
+```
+$ ln -s ~/git/vimrc ~/.vim
+```
+
 - plik `setup.sh`
 
 
