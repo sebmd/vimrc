@@ -37,3 +37,10 @@ vim-plug https://github.com/junegunn/vim-plug
 
 Komendy `PlugInstall` oraz `PlugUpdate`
 
+## Skróty klawiszowe
+
+| Skrót       | Opis                               |
+|-------------|------------------------------------|
+| `qq`        | Wyjście bez zapisania              |
+| `qw`        | Zapisanie i wyjście                |
+| `<leader>n` | Uruchamia menadżer plików NERDTree |
