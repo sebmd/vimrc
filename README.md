@@ -39,6 +39,7 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 | `Ctrl-/`    | Komentuje linie w trybie NORMAL i VISUAL |
 | `<leader>n` | Uruchamia menadżer plików NERDTree       |
 | `<leader>c` | Uruchamia podręczną pomoc plugin Cheat40 |
+| `<leader>f` | Uruchamia polecenie `:Files`             |
 
 ## Skróty klawiszowe Startify
 
