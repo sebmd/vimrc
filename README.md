@@ -17,12 +17,6 @@ curl -sLf https://git.io/JfGN7 -o setup.sh
 bash ./setup.sh
 ```
 
-Lub jedno poleceni
-
-```
-curl -sLf https://git.io/JfGN7 -o setup.sh | bash
-```
-
 ## Ustawienia
 
 - Taby są ustawione jako 4 znaki spacji
