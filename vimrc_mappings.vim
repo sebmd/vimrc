@@ -105,6 +105,9 @@ nmap <leader>o :only<cr>
 " NERDTree <leader>n
 nnoremap <silent> <expr> <Leader>n g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
 
+" FZF / FZF.vim
+nnoremap <leader>f :Files<cr>
+
 " vim-sneak
 " remap so I can use , and ; with f and t
 map gS <Plug>Sneak_,
