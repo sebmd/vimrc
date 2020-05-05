@@ -71,3 +71,20 @@ Do zarządzania sesjami służy plugin Startify
 - `SLoad [nazwa-sesji]` - odtworzenie sesji
 - `SClose` - zakończenie sesji
 - `SDelete [nazwa-sesji]` - usunięcie sesji
+
+## Plugin vim-sneak
+
+- https://github.com/justinmk/vim-sneak
+
+Sneak Commands
+
+```
+s{char}{char}
+S{char}{char}
+
+f{char}
+F{char}
+
+t{char}
+F{char}
+```

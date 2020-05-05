@@ -90,11 +90,6 @@ nnoremap <leader>c :Cheat40<cr>
 vnoremap <c-c> "*y :let @+=@*<cr>
 map <c-p> "+P
 
-" Pluginy
-
-" NERDTree <leader>n
-nnoremap <silent> <expr> <Leader>n g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
-
 " odtwarza makro 'a'
 noremap Q @a
 vnoremap Q :norm @a<cr>
@@ -104,3 +99,20 @@ nmap th :nohl<cr>
 
 " ustawia podzielone okno jako główne (full screen)
 nmap <leader>o :only<cr>
+
+" Pluginy
+
+" NERDTree <leader>n
+nnoremap <silent> <expr> <Leader>n g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
+
+" vim-sneak
+" remap so I can use , and ; with f and t
+map gS <Plug>Sneak_,
+map gs <Plug>Sneak_;
+
+" I like quickscope better for this since it keeps me in the scope of a single
+" line
+" map f <Plug>Sneak_f
+" map F <Plug>Sneak_F
+" map t <Plug>Sneak_t
+" map T <Plug>Sneak_T
