@@ -86,12 +86,12 @@ function instalacja_pluginow() {
 }
 
 function the_end() {
-    printf "${YELLOW}----------------------\n"
+    printf "\n${YELLOW}----------------------\n"
     printf "${L_BLUE}Instalacja zakończona.\n"
     printf "${YELLOW}----------------------\n\n"
     printf "${NC}"
-    printf "${GREEN}Naciśnik [ANY KEY]:"
-    read
+    printf "${GREEN}Naciśnik [ANY KEY]${NC}"
+    /usr/bin/read -n 1 -s -r -p "Naciśnij [ANY_KEY]..."
 }
 
 backup
