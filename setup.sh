@@ -2,6 +2,8 @@
 
 DATE=$(date +%F-%T | tr : -)
 BACKUP_DIR=~/.backup/dot.vim
+
+# program "rg" występuje jako pakiet ripgrep
 SOFT='git rg curl fzf'
 
       NC='\033[0m'
