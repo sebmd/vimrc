@@ -35,7 +35,6 @@ function msg_ok() {
 
 function msg_error() {
     msg "${RED}[ERROR]${NC} ${1}${2}"
-    exit 1
 }
 
 function msg_warn () {
@@ -51,10 +50,10 @@ function soft() {
     do
         if ! hash "$i" 2>/dev/null; then
             msg_error "Brak pakietu $i"
-            msg_info "\nDla dystrybucji typu Debian:\n"
-            msg_info "sudo apt install git curl ripgrep curl\n"
-            msg_info "\nDla dystrybucji Fedora:\n"
-            msg_info "sudo dnf install git curl ripgrep curl\n"
+            printf "\nInstalacja pakietóœ dla dystrybucji typu Debian:\n\n"
+            printf "\tsudo apt install git curl ripgrep curl\n"
+            printf "\nInstalacja pakietów dla dystrybucji Fedora:\n\n"
+            printf "\tsudo dnf install git curl ripgrep curl\n\n"
             exit 1
         fi
     done
