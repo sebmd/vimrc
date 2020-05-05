@@ -88,8 +88,10 @@ function instalacja_pluginow() {
 function the_end() {
     printf "${YELLOW}----------------------\n"
     printf "${L_BLUE}Instalacja zakończona.\n"
-    printf "${YELLOW}----------------------\n"
+    printf "${YELLOW}----------------------\n\n"
     printf "${NC}"
+    printf "${GREEN}Naciśnik [ANY KEY]:"
+    read
 }
 
 backup
@@ -98,3 +100,4 @@ mkdirs
 download_plug
 instalacja_pluginow
 the_end
+vim
