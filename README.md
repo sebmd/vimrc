@@ -44,3 +44,18 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 | `qq`        | Wyjście bez zapisania              |
 | `qw`        | Zapisanie i wyjście                |
 | `<leader>n` | Uruchamia menadżer plików NERDTree |
+
+## Skróty klawiszowe Startify
+
+| Skrót | Opis                                               |
+|-------|----------------------------------------------------|
+| `c`   | otwiera menadżer plików w bieżącej lokalizacji     |
+| `v`   | otwiera plik konfiguracyjny `vimrc`                |
+| `V`   | otwiera Vimwiki plugin do tworzenia lokalnego Wiki |
+| `s`   | otwiera plik README.md ze skrótami klawiszowymi    |
+| `z`   | otwiera plik konfiguracyjny `~/.zshrc`             |
+| `b`   | otwiera plik konfiguracyjny `~/.bashrc`            |
+| `a`   | otwiera plik z aliasami `~/.aliases`               |
+| `t`   | otwiera tutorial dla edytora Vim                   |
+| `h`   | otwiera pomoc Vim Reference Manual                 |
+| `S`   | otwiera pomoc Vim Script Intro                     |
