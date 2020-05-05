@@ -86,7 +86,7 @@ function instalacja_pluginow() {
 }
 
 backup
-mkdirs
 download_repo
+mkdirs
 download_plug
 instalacja_pluginow
