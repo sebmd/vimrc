@@ -43,17 +43,15 @@ function msg_info() {
 }
 
 function backup() {
+    msg_info "Tworzę katalog kopii zapasowych: $BACKUP_DIR"
     if [[ -d "$BACKUP_DIR" ]]; then
-        msg_info "Tworzę katalog kopii zapasowych: $BACKUP_DIR"
         mkdir -p "$BACKUP_DIR"
     fi
 
     if [[ -d ~/.vim ]]; then
-        mv ~/.vim "$BACKUP_DIR/$DATE"
-        msg_info "Kopia zapasowa znajduje się w katalogu: $BACKUP_DIR/$DATE"
-    else
-        msg_info "Tworzę katalog ~/.vim"
-        mkdir ~/.vim
+        mkdir "$BACKUP_DIR/$DATE"
+        mv ~/.vim "$BACKUP_DIR/$DATE/"
+        msg_info "Kopia zapasowa znajduje się w katalogu: $BACKUP_DIR/$DATE/"
     fi
 
     if [[ -f ~/.vimrc ]]; then
