@@ -79,6 +79,13 @@ nmap <leader>ts :term<cr>
 " uruchomienie terminala w oknie po prawej
 nmap <leader>tv :botright vertical terminal<cr>
 
+" Ctrl-/ komentuje linie
+nnoremap <c-_> :Commentary<cr>
+vnoremap <c-_> :Commentary<cr>
+
+" uruchamia plugin Cheat40
+nnoremap <leader>c :Cheat40<cr>
+
 " kopiuj i wklej do schowka systemowego
 vnoremap <c-c> "*y :let @+=@*<cr>
 map <c-p> "+P

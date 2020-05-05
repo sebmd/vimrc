@@ -30,13 +30,15 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 
 ## Skróty klawiszowe
 
-| Skrót       | Opis                                     |
-|-------------|------------------------------------------|
-| `qq`        | Wyjście bez zapisania                    |
-| `qw`        | Zapisanie i wyjście                      |
-| `<leader>n` | Uruchamia menadżer plików NERDTree       |
-| `gh`        | Zamiennik `0`, czyli pierwszy znak linii |
-| `gl`        | Zamiennik `$`, czyli ostatni znak linii  |
+| Skrót       | Opis                                      |
+|-------------|-------------------------------------------|
+| `qq`        | Wyjście bez zapisania                     |
+| `qw`        | Zapisanie i wyjście                       |
+| `gh`        | Zamiennik `0`, czyli pierwszy znak linii  |
+| `gl`        | Zamiennik `$`, czyli ostatni znak linii   |
+| `Ctrl-/`    | Komentuje linie w trybie NORMAL i VISUAL  |
+| `<leader>n` | Uruchamia menadżer plików NERDTree        |
+| `<leader>c` | Uruchamia podręczną pomoc pluginu Cheat40 |
 
 ## Skróty klawiszowe Startify
 
