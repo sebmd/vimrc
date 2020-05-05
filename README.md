@@ -29,11 +29,13 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 
 ## Skróty klawiszowe
 
-| Skrót       | Opis                               |
-|-------------|------------------------------------|
-| `qq`        | Wyjście bez zapisania              |
-| `qw`        | Zapisanie i wyjście                |
-| `<leader>n` | Uruchamia menadżer plików NERDTree |
+| Skrót       | Opis                                     |
+|-------------|------------------------------------------|
+| `qq`        | Wyjście bez zapisania                    |
+| `qw`        | Zapisanie i wyjście                      |
+| `<leader>n` | Uruchamia menadżer plików NERDTree       |
+| `gh`        | Zamiennik `0`, czyli pierwszy znak linii |
+| `gl`        | Zamiennik `$`, czyli ostatni znak linii  |
 
 ## Skróty klawiszowe Startify
 
@@ -52,8 +54,8 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 
 ## Przydatne komendy
 
-- FZF
-- Files
-- Buffers
-- Colors
-- Maps
+- `:FZF`     - wyszukiwanie plików
+- `:Files`   - wyszukiwanie plików z podlądem
+- `:Buffers` - lista buforów
+- `:Colors`  - lista kolorów
+- `:Maps`    - lista skrótów klawiszowych
