@@ -55,24 +55,39 @@ function backup() {
         msg_info "Tworzę katalog ~/.vim"
         # mkdir ~/.vim
     fi
+
+    if [[ -f ~/.vimrc ]]; then
+        mv ~/.vimrc $BACKUP_DIR/.vimrc-$DATE
+    fi
 }
 
-backup
+function mkdirs() {
+    msg_info "Tworzę katalogi w ~/.vim/"
+    mkdir -p ~/.vim/tmp/{backup,view,swap,viminfo}
+    mkdir ~/.vim/colors
+    mkdir ~/.vim/autoload
+}
 
-exit
+function download_repo() {
+    msg_info "Pobieram repozytorium vimrc"
+    git clone https://github.com/SebMD/vimrcd ~/.vim
+    if [[ $? -ne 0 ]];
+        msg_error "Coś poszło nie tak :("
+    fi
+}
 
-echo "Tworzę katalogi w ~/.vim/"
-mkdir -p ~/.vim/tmp/{backup,view,swap,viminfo}
-mkdir ~/.vim/colors
-mkdir ~/.vim/autoload
-
-echo "Pobieram vim-plug"
-curl -fLo autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+function download_plug() {
+    msg_info "Pobieram vim-plug"
+    curl -fLo autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+}
 
 function instalacja_pluginow() {
-    echo "Instaluję pluginy"
+    msg_info "Instaluję pluginy"
     vim -c ":PlugInstall" -c ":q" -c ":q"
 }
 
+backup
+download_repo
+download_plug
 instalacja_pluginow
