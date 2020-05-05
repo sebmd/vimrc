@@ -44,7 +44,7 @@ function msg_info() {
 
 function backup() {
     msg_info "Tworzę katalog kopii zapasowych: $BACKUP_DIR"
-    if [[ -d "$BACKUP_DIR" ]]; then
+    if [[ ! -d "$BACKUP_DIR" ]]; then
         mkdir -p "$BACKUP_DIR"
     fi
 
