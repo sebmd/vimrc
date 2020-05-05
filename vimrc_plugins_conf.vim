@@ -16,7 +16,7 @@ let g:startify_commands = [
     \ {'c': ['Current Directory', 'e .']},
     \ {'v': ['VIMRC', 'e $MYVIMRC']},
     \ {'V': ['Vimwiki', 'VimwikiIndex']},
-    \ {'s': ['Shortcuts', 'e ~/.vim/README.md']}
+    \ {'s': ['Shortcuts', 'e ~/.vim/README.md; /FZF']},
     \ {'z': ['ZSHRC', 'e ~/.zshrc']},
     \ {'b': ['Bashrc', 'e ~/.bashrc']},
     \ {'a': ['Aliases', 'e ~/.aliases']},
