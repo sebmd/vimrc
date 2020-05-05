@@ -1,5 +1,7 @@
 # vimrc
 
+vim-plug https://github.com/junegunn/vim-plug
+
 ## Dodatkowe oprogramowanie
 
 - FZF
@@ -8,34 +10,18 @@
 
 ## Instalacja
 
-Pobranie repozytorium
+Pobranie skryptu instalacyjnego
 
 ```
-$ mkdir ~/git
-$ cd ~/git
-$ git clone https://github.com/SebMD/vimrc
-```
-
-```
-curl -sLf https://git.io/JfGdL | bash
-```
-
-```
-curl -sLf https://git.io/JfGdL -o setup.sh
+curl -sLf https://git.io/JfGN7 -o setup.sh
 bash ./setup.sh
 ```
 
-
-Utworzenie dowiązania symbolicznego
+Lub jedno poleceni
 
 ```
-$ ln -s ~/git/vimrc ~/.vim
+curl -sLf https://git.io/JfGN7 -o setup.sh | bash
 ```
-
-- plik `setup.sh`
-
-
-vim-plug https://github.com/junegunn/vim-plug
 
 ## Ustawienia
 
