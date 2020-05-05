@@ -26,3 +26,14 @@ $ ln -s ~/git/vimrc ~/.vim
 
 
 vim-plug https://github.com/junegunn/vim-plug
+
+## Ustawienia
+
+- Taby są ustawione jako 4 znaki spacji
+- Linie są automatycznie zawijane przy 80 kolumnie linii
+
+
+## Zarządzanie pluginami
+
+Komendy `PlugInstall` oraz `PlugUpdate`
+
