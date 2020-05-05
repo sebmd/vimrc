@@ -2,6 +2,7 @@
 
 DATE=$(date +%F-%T | tr : -)
 BACKUP_DIR=~/.backup/dot.vim
+SOFT='git ripgrep curl fzf'
 
       NC='\033[0m'
    BLACK='\033[0;30m'
@@ -40,6 +41,15 @@ function msg_warn () {
 
 function msg_info() {
     msg "${L_BLUE}[INFO]${NC} ${1}${2}"
+}
+
+function soft() {
+    for i in $SOFT
+    do
+        if [[ ! hash  "$i" ]]; then
+            msg_error "Brak pakietu $i"
+        fi
+    done
 }
 
 function backup() {
@@ -104,6 +114,7 @@ function the_end() {
 }
 
 function install() {
+    soft
     backup
     download_repo
     mkdirs
