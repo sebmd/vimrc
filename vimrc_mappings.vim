@@ -10,6 +10,9 @@ nmap qw :x<cr>
 nnore j gj
 nnore k gk
 
+" leader + ; wchodzi do trybu COMMAND
+map <leader>; :
+
 " użycie jj, kk lub kj jako klawisza ESC w trybie INSERT
 inore jj <esc>
 inore kk <esc>
@@ -57,6 +60,8 @@ noremap <leader>a =ip gqap
 " klonowanie całego paragrafu czyli kopiuj i wklej
 nmap <leader>cp yap<S-}>p
 
+nmap <leader>cd :cd %:p:h<cr>:pwd<cr>  " <leader>cd zmienia katalog na katalog edytowanego pliku
+
 " centrwanie ekranu przy przeskakiwaniu do kolejnego wyszukiwanego tekstu / ?
 nnoremap n nzz
 nnoremap N Nzz
@@ -82,3 +87,13 @@ map <c-p> "+P
 
 " NERDTree <leader>n
 nnoremap <silent> <expr> <Leader>n g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
+
+" odtwarza makro 'a'
+noremap Q @a
+vnoremap Q :norm @a<cr>
+
+" wyłączenie podświetlania wyszukiwanego wyrażenia
+nmap th :nohl<cr>
+
+" ustawia podzielone okno jako główne (full screen)
+nmap <leader>o :only<cr>
