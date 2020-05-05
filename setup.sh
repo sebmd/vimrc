@@ -2,7 +2,7 @@
 
 DATE=$(date +%F-%T | tr : -)
 BACKUP_DIR=~/.backup/dot.vim
-SOFT='git ripgrep curl fzf'
+SOFT='git rg curl fzf'
 
       NC='\033[0m'
    BLACK='\033[0;30m'
