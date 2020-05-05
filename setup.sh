@@ -86,7 +86,7 @@ function instalacja_pluginow() {
 }
 
 function bajery() {
-    sed -i s/Startify/$USER/ ~/.vim/vimrc_plugin_conf.vim
+    sed -i s/Startify/$USER/ ~/.vim/vimrc_plugins_conf.vim
 }
 
 function the_end() {
