@@ -65,7 +65,7 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 
 ## Zarządzanie sesjami
 
-Do zarządzania sesjami służy plugin Startifi
+Do zarządzania sesjami służy plugin Startify
 
 - `SSave [nazwa-sesji]` - zapisanie sesji
 - `SLoad [nazwa-sesji]` - odtworzenie sesji
