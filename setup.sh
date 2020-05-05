@@ -9,4 +9,4 @@ mkdir -p ~/.vim/tmp/{backup,view,swap,viminfo}
 mkdir -p ~/.vim/colors
 
 echo "Instaluję pluginy"
-vim -c ":PlugInstall" -c ":q"
+vim -c ":PlugInstall" -c ":q" -c ":q"
