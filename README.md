@@ -62,3 +62,12 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 - `:Buffers` - lista buforów
 - `:Colors`  - lista kolorów
 - `:Maps`    - lista skrótów klawiszowych
+
+## Zarządzanie sesjami
+
+Do zarządzania sesjami służy plugin Startifi
+
+- `SSave [nazwa-sesji]` - zapisanie sesji
+- `SLoad [nazwa-sesji]` - odtworzenie sesji
+- `SClose` - zakończenie sesji
+- `SDelete [nazwa-sesji]` - usunięcie sesji
