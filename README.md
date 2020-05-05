@@ -1,7 +1,5 @@
 # vimrc
 
-vim-plug https://github.com/junegunn/vim-plug
-
 ## Dodatkowe oprogramowanie
 
 - FZF
@@ -24,6 +22,8 @@ bash ./setup.sh
 
 
 ## Zarządzanie pluginami
+
+vim-plug https://github.com/junegunn/vim-plug
 
 Komendy `PlugInstall` oraz `PlugUpdate`
 
