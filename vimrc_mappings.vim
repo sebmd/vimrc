@@ -35,8 +35,18 @@ nmap <c-k> <c-w><c-k>
 nmap <c-h> <c-w><c-h>
 nmap <c-l> <c-w><c-l>
 
-" przejście do edycji pliku vimrc za pomocą skrótu <leader>vv
-nmap <leader>vv :vs $MYVIMRC<cr>
+" przejście do edycji pliku vimrc za pomocą skrótu <leader>vv / <leader>vs
+nmap <leader>vv :e $MYVIMRC<cr>
+nmap <leader>vs :vs $MYVIMRC<cr>
+
+" otworzenie pliku z mapowaniem klawiszy
+nmap <leader>vm :e ~/.vim/vimrc_mappings.vim<cr>
+
+" otworzenie pliku z pluginami
+nmap <leader>vp :e ~/.vim/vimrc_plugins.vim<cr>
+
+" zapisanie i przeładowanie konfiguracji edytora Vim
+nmap <leader>r :update<cr>:source $MYVIMRC<cr>
 
 " łączy dwie linie pozostawiając kursor w tym samym miejscu
 noremap J maJ`a
@@ -57,3 +67,13 @@ nnore gh 0
 
 " przeskakiwanie pomiędzy dwoma ostatnimi buforami za pomocą klawisza TAB
 nnoremap <tab> :e #<cr>
+
+" uruchomienie terminala
+nmap <leader>ts :term<cr>
+
+" uruchomienie terminala w oknie po prawej
+nmap <leader>tv :botright vertical terminal<cr>
+
+" kopiuj i wklej do schowka systemowego
+vnoremap <c-c> "*y :let @+=@*<cr>
+map <c-p> "+P
