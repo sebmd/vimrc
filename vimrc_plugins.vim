@@ -8,6 +8,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'vimwiki/vimwiki'
+Plug 'mhinz/vim-startify'
 " Plug 'fatih/vim-go', { 'tag': '*' }
 " Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 call plug#end()
