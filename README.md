@@ -59,3 +59,11 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 | `t`   | otwiera tutorial dla edytora Vim                   |
 | `h`   | otwiera pomoc Vim Reference Manual                 |
 | `S`   | otwiera pomoc Vim Script Intro                     |
+
+## Przydatne komendy
+
+- FZF
+- Files
+- Buffers
+- Colors
+- Maps
