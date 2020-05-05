@@ -78,7 +78,7 @@ function download_repo() {
 
 function download_plug() {
     msg_info "Pobieram vim-plug"
-    curl -fLo autoload/plug.vim --create-dirs \
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 }
 
@@ -88,6 +88,7 @@ function instalacja_pluginow() {
 }
 
 backup
+mkdirs
 download_repo
 download_plug
 instalacja_pluginow
