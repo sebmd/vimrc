@@ -45,7 +45,7 @@ function msg_info() {
 
 function soft() {
     for i in $SOFT
-        if hash "$1" 2>/dev/null; then
+        if ! hash $1 2>/dev/null; then
             msg_error "Brak pakietu $i"
             exit 1
         fi
