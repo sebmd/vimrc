@@ -86,7 +86,9 @@ function instalacja_pluginow() {
 }
 
 function the_end() {
-    printf "${L_BLUE}Instalacja zakończona."
+    printf "${YELLOW}----------------------\n"
+    printf "${L_BLUE}Instalacja zakończona.\n"
+    printf "${YELLOW}----------------------\n"
     printf "${NC}"
 }
 
