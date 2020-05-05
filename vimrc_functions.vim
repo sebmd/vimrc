@@ -1,6 +1,18 @@
 
 " ~/.vim/vimrc
 
+" Files
+command! -bang -nargs=? -complete=dir Files
+    \ call fzf#vim#files(<q-args>, fzf#vim#with_preview({'options': ['--layout=reverse', '--info=inline']}), <bang>0)
+
+" WikiFiles ~/vimwiki
+command! -bang -nargs=? -complete=dir WikiFiles
+    \ call fzf#vim#files('~/vimwiki', fzf#vim#with_preview({'options': ['--layout=reverse', '--info=inline']}), <bang>0)
+
+" LS
+command! -bang -complete=dir -nargs=* LS
+    \ call fzf#run(fzf#wrap({'source': 'ls', 'dir': <q-args>}, <bang>0))
+
 function! FileTime()
   let filename=expand('%:p')
   let msg=""

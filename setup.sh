@@ -85,6 +85,7 @@ function instalacja_pluginow() {
 
 function bajery() {
     sed -i s/Startify/$USER/ ~/.vim/vimrc_plugins_conf.vim
+
     curl -fLo ~/.fonts/devicons.ttf --create-dirs \
         https://github.com/vorillaz/devicons/raw/master/fonts/devicons.ttf
     fc-cache
@@ -116,12 +117,12 @@ function install() {
 function main() {
     if [ $# -gt 0 ]; then
         case "$1" in
-            update)
+            update|-u)
                 cd ~/.vim
                 git pull
                 exit 0
                 ;;
-            install)
+            install|-i)
                 install
                 exit 0
         esac
