@@ -26,6 +26,7 @@ let g:startify_commands = [
 
 hi StartifyHeader guifg=#FFD700
 
-let g:startify_custom_header = [ ' Vim       ',
-                               \ '-----------'
-                               \ ]
+let g:startify_custom_header = [ \
+    \ ' Vim Startify ',
+    \ '--------------'
+    \ ]
