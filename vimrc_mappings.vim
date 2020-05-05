@@ -29,6 +29,12 @@ inoremap <c-j> <up>
 inoremap <c-h> <left>
 inoremap <c-l> <right>
 
+" poruszanie się pomiędzy oknami za pomocą Ctrl-[hjkl]
+nmap <c-j> <c-w><c-j>
+nmap <c-k> <c-w><c-k>
+nmap <c-h> <c-w><c-h>
+nmap <c-l> <c-w><c-l>
+
 " przejście do edycji pliku vimrc za pomocą skrótu <leader>vv
 nmap <leader>vv :vs $MYVIMRC<cr>
 
@@ -40,3 +46,14 @@ noremap <leader>a =ip gqap
 
 " klonowanie całego paragrafu czyli kopiuj i wklej
 nmap <leader>cp yap<S-}>p
+
+" centrwanie ekranu przy przeskakiwaniu do kolejnego wyszukiwanego tekstu / ?
+nnoremap n nzz
+nnoremap N Nzz
+
+" początek i koniec linii za pomocą gh i gl
+nnore gl $
+nnore gh 0
+
+" przeskakiwanie pomiędzy dwoma ostatnimi buforami za pomocą klawisza TAB
+nnoremap <tab> :e #<cr>
