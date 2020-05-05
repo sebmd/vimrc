@@ -77,3 +77,8 @@ nmap <leader>tv :botright vertical terminal<cr>
 " kopiuj i wklej do schowka systemowego
 vnoremap <c-c> "*y :let @+=@*<cr>
 map <c-p> "+P
+
+" Pluginy
+
+" NERDTree <leader>n
+nnoremap <silent> <expr> <Leader>n g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
