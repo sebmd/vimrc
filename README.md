@@ -1,7 +1,8 @@
 # vimrc
 
-## Dodatkowe oprogramowanie
+## Wymagane oprogramowanie
 
+- Git
 - FZF
 - ripgrep
 - curl
