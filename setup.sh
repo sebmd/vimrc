@@ -99,11 +99,33 @@ function the_end() {
     printf "\n\n"
 }
 
-backup
-download_repo
-mkdirs
-download_plug
-instalacja_pluginow
-bajery
-the_end
-vim
+function install() {
+    backup
+    download_repo
+    mkdirs
+    download_plug
+    instalacja_pluginow
+    bajery
+    the_end
+    vim
+}
+
+
+function main() {
+    if [ $# -gt 0 ]; then
+        case "$1" in
+            update)
+                cd ~/.vim
+                git pull
+                exit 0
+                ;;
+            install)
+                install
+                exit 0
+        esac
+    else
+        install
+    fi
+}
+
+main "$@"
