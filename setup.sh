@@ -74,19 +74,22 @@ function download_repo() {
     fi
 }
 
-function download_plug() {
+function instalacja_pluginow() {
     msg_info "Pobieram vim-plug"
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-}
 
-function instalacja_pluginow() {
     msg_info "Instaluję pluginy"
     vim -c ":PlugInstall" -c ":q" -c ":q"
 }
 
 function bajery() {
     sed -i s/Startify/$USER/ ~/.vim/vimrc_plugins_conf.vim
+    curl -fLo ~/.fonts/devicons.ttf --create-dirs \
+        https://github.com/vorillaz/devicons/raw/master/fonts/devicons.ttf
+    fc-cache
+    mkfontdir ~/.fonts
+    mkfontscale ~/.fonts
 }
 
 function the_end() {
@@ -103,7 +106,6 @@ function install() {
     backup
     download_repo
     mkdirs
-    download_plug
     instalacja_pluginow
     bajery
     the_end
