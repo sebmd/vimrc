@@ -90,9 +90,9 @@ function the_end() {
     printf "${L_BLUE}Instalacja zakończona.\n"
     printf "${YELLOW}----------------------\n\n"
     printf "${NC}"
-    printf "${GREEN}Naciśnik [ANY KEY]... ${NC}"
+    printf "${GREEN}Naciśnik [ANY_KEY]... ${NC}"
     /usr/bin/read -n 1 -s -r
-    printf "\n"
+    printf "\n\n"
 }
 
 backup
