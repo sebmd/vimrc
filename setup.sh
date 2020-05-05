@@ -85,6 +85,10 @@ function instalacja_pluginow() {
     vim -c ":PlugInstall" -c ":q" -c ":q"
 }
 
+function bajery() {
+    sed -i s/Startify/$USER/ ~/.vim/vimrc_plugin_conf.vim
+}
+
 function the_end() {
     printf "\n${YELLOW}----------------------\n"
     printf "${L_BLUE}Instalacja zakończona.\n"
@@ -100,5 +104,6 @@ download_repo
 mkdirs
 download_plug
 instalacja_pluginow
+bajery
 the_end
 vim
