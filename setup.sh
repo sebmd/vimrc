@@ -43,14 +43,15 @@ function msg_info() {
     msg "${L_BLUE}[INFO]${NC} ${1}${2}"
 }
 
-# function soft() {
-#     for i in $SOFT
-#         if ! hash $1 2>/dev/null; then
-#             msg_error "Brak pakietu $i"
-#             exit 1
-#         fi
-#     done
-# }
+function soft() {
+    for i in $SOFT
+    do
+        if ! hash "$1" 2>/dev/null; then
+            msg_error "Brak pakietu $i"
+            exit 1
+        fi
+    done
+}
 
 function backup() {
     msg_info "Tworzę katalog kopii zapasowych: $BACKUP_DIR"
