@@ -6,6 +6,7 @@ BACKUP_DIR=~/.backup/dot.vim
 # program "rg" występuje jako pakiet ripgrep
 SOFT='git rg curl fzf'
 
+
       NC='\033[0m'
    BLACK='\033[0;30m'
   D_GREY='\033[1;30m'
@@ -50,6 +51,10 @@ function soft() {
     do
         if ! hash "$i" 2>/dev/null; then
             msg_error "Brak pakietu $i"
+            msg_info "\nDla dystrybucji typu Debian:\n"
+            msg_info "sudo apt install git curl ripgrep curl\n"
+            msg_info "\nDla dystrybucji Fedora:\n"
+            msg_info "sudo dnf install git curl ripgrep curl\n"
             exit 1
         fi
     done
