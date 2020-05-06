@@ -4,7 +4,7 @@ DATE=$(date +%F-%T | tr : -)
 BACKUP_DIR=~/.backup/dot.vim
 
 # program "rg" występuje jako pakiet ripgrep
-SOFT='git rg curl fzf'
+SOFT='git rg curl'
 
 
       NC='\033[0m'
@@ -121,7 +121,7 @@ function the_end() {
 }
 
 function install() {
-    # soft
+    soft
     backup
     download_repo
     mkdirs
