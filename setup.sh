@@ -114,6 +114,7 @@ function the_end() {
     printf "\n${YELLOW}----------------------\n"
     printf "${L_BLUE}Instalacja zakończona.\n"
     printf "${YELLOW}----------------------\n\n"
+    printf "${YELLOW} Kopia zapasowa znajduje się w katalogu: $BACKUP_DIR/$DATE/\n\n"
     printf "${NC}"
     printf "${GREEN}Naciśnij [ANY_KEY]... ${NC}"
     /usr/bin/read -n 1 -s -r
