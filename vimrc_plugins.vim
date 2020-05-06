@@ -37,6 +37,7 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'SirVer/ultisnips'
 Plug 'wellle/targets.vim'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-sensible'
 Plug 'RRethy/vim-illuminate'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
