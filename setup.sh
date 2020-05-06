@@ -51,9 +51,9 @@ function soft() {
         if ! hash "$i" 2>/dev/null; then
             msg_error "Brak pakietu $i"
             printf "\nInstalacja pakietóœ dla dystrybucji typu Debian:\n\n"
-            printf "\t${GREEN}sudo apt install git curl ripgrep curl${NC}\n"
+            printf "\t${GREEN}sudo apt install git curl ripgrep${NC}\n"
             printf "\nInstalacja pakietów dla dystrybucji Fedora:\n\n"
-            printf "\t${GREEN}sudo dnf install git curl ripgrep curl${NC}\n\n"
+            printf "\t${GREEN}sudo dnf install git curl ripgrep${NC}\n\n"
             exit 1
         fi
     done
