@@ -20,7 +20,7 @@ let g:startify_commands = [
     \ {'z': ['ZSHRC', 'e ~/.zshrc']},
     \ {'b': ['Bashrc', 'e ~/.bashrc']},
     \ {'a': ['Aliases', 'e ~/.aliases']},
-    \ {'u': ['Update SebMD/vimrc', 'cd ~/.vim/; !git pull']}
+    \ {'u': ['Update SebMD/vimrc', 'cd ~/.vim/; !git pull']},
     \ {'t': ['Vim Tutor', '! vimtutor']},
     \ {'h': ['Vim Refernce', 'h ref']},
     \ {'S': ['Vim Script Intro', 'h vim-script-intro']},
