@@ -44,7 +44,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'mhinz/vim-startify'
 Plug 'lifepillar/vim-cheat40'
-Plug 'tpope/vim-unimpaired'
 " Plug 'fatih/vim-go', { 'tag': '*', 'do': ':GoUpdateBinaries' }
 " Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 call plug#end()
