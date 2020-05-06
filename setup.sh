@@ -103,6 +103,9 @@ function instalacja_pluginow() {
 function bajery() {
     sed -i s/Startify/$USER/ ~/.vim/vimrc_plugins_conf.vim
 
+    curl -fLo ~/.vim/colors/base16-eighties.vim --create-dirs \
+        https://raw.githubusercontent.com/chriskempson/base16-vim/master/colors/base16-eighties.vim
+
     curl -fLo ~/.fonts/devicons.ttf --create-dirs \
         https://github.com/vorillaz/devicons/raw/master/fonts/devicons.ttf
     fc-cache

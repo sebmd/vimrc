@@ -35,7 +35,8 @@ set showbreak=↪
 set termguicolors
 set t_Co=256
 set background=dark
-silent! colorscheme gruvbox
+silent! colorscheme base16-eighties
+" silent! colorscheme gruvbox
 
 " dzielenie okien
 set splitright
