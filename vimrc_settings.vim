@@ -32,11 +32,13 @@ set fillchars+=vert:\
 set showbreak=↪
 
 " kolorystyka
-set termguicolors
+if has("+termguicolors")
+    set termguicolors
+endif
 set t_Co=256
 set background=dark
-silent! colorscheme base16-eighties
-" silent! colorscheme gruvbox
+" silent! colorscheme base16-eighties
+silent! colorscheme gruvbox
 
 " dzielenie okien
 set splitright
