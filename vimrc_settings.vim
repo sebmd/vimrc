@@ -34,6 +34,7 @@ set showbreak=↪
 " kolorystyka
 if has("+termguicolors")
     set termguicolors
+    silent! colorscheme base16-eighties
 endif
 set t_Co=256
 set background=dark
