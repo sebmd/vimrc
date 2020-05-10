@@ -93,7 +93,7 @@ function download_repo() {
 
 function instalacja_pluginow() {
     msg_info "Pobieram vim-plug"
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    curl -sfLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
     msg_info "Instaluję pluginy"
@@ -103,10 +103,10 @@ function instalacja_pluginow() {
 function bajery() {
     sed -i s/STARTIFY_USERNAME/$USER/ ~/.vim/vimrc_plugins_conf.vim
 
-    curl -fLo ~/.vim/colors/base16-eighties.vim --create-dirs \
+    curl -sfLo ~/.vim/colors/base16-eighties.vim --create-dirs \
         https://raw.githubusercontent.com/chriskempson/base16-vim/master/colors/base16-eighties.vim
 
-    curl -fLo ~/.fonts/devicons.ttf --create-dirs \
+    curl -sfLo ~/.fonts/devicons.ttf --create-dirs \
         https://github.com/vorillaz/devicons/raw/master/fonts/devicons.ttf
     fc-cache
     mkfontdir ~/.fonts
