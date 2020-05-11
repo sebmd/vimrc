@@ -135,3 +135,14 @@ highlight SneakScope guifg=red guibg=yellow ctermfg=red ctermbg=yellow
 " Cool prompts
 let g:sneak#prompt = '🕵'
 let g:sneak#prompt = '🔎'
+
+" Vimwiki
+let wiki = {}
+let wiki.path = '~/vimwiki'
+let wiki.ext = '.md'
+let wiki.syntax = 'markdown'
+let wiki.nested_syntax = { 'python': 'python', 'sh': 'sh' }
+
+let g:vimwiki_list = [wiki]
+let g:vimwiki_table_mappings = 0
+let g:vimwiki_listsyms = '✗○◐●✓'
