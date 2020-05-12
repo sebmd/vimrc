@@ -164,8 +164,3 @@ hi default link WhichKeyDesc        Function
 autocmd! FileType which_key
 autocmd FileType which_key set laststatus=0 noshowmode noruler
     \| autocmd BufLeave <buffer> set laststatus=1 noshowmode ruler
-
-let g:which_key_map['/'] = ['<Plug>NERDCommenterToggle', 'comment']
-let g:which_key_map['e'] = ['NERDTreeToggle', 'NERDTree']
-let g:which_key_map['f'] = [':Files', 'Files']
-let g:which_key_map['s'] = [':Startify', 'Startify']

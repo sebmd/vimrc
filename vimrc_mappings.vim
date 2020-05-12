@@ -119,3 +119,13 @@ map gs <Plug>Sneak_;
 " map F <Plug>Sneak_F
 " map t <Plug>Sneak_t
 " map T <Plug>Sneak_T
+
+let g:which_key_map['/'] = ['<Plug>NERDCommenterToggle', 'comment']
+let g:which_key_map['e'] = ['NERDTreeToggle', 'NERDTree']
+let g:which_key_map['f'] = [':Files', 'Files']
+let g:which_key_map['s'] = [':Startify', 'Startify']
+
+let s:which_map.t = {
+    \ 'name': '+toggle'
+    \ 'p' : ['setlocal paste', 'toggle paste'],
+    \ }
