@@ -148,6 +148,9 @@ let g:vimwiki_table_mappings = 0
 let g:vimwiki_listsyms = '✗○◐●✓'
 
 " vim-which-key
+call which_key#register('\', "g:which_key_map")
+call which_key#register(' ', "g:space_prefix_dict")
+
 nnoremap <silent> \ :silent WhichKey '\'<cr>
 vnoremap <silent> \ :silent <c-u> :silent WhichKeyVisual '\'<cr>
 
@@ -165,3 +168,4 @@ autocmd FileType which_key set laststatus=0 noshowmode noruler
 let g:which_key_map['/'] = ['<Plug>NERDCommenterToggle', 'comment']
 let g:which_key_map['e'] = ['NERDTreeToggle', 'NERDTree']
 let g:which_key_map['f'] = [':Files', 'Files']
+let g:which_key_map['s'] = [':Startify', 'Startify']
