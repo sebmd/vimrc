@@ -123,11 +123,11 @@ map gs <Plug>Sneak_;
 let g:which_key_map['/'] = ['<Plug>NERDCommenterToggle', 'comment']
 let g:which_key_map['e'] = ['NERDTreeToggle', 'NERDTree']
 let g:which_key_map['f'] = [':Files', 'Files']
-let g:which_key_map['s'] = [':Startify', 'Startify']
 
 let g:which_key_map.t = {
     \ 'name': '+toggle',
     \ 'p' : [':set paste!', 'toggle paste'],
+    \ 's' : [':Startify', 'Startify'],
     \ }
 
 let g:which_key_map.s {
