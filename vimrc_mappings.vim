@@ -127,5 +127,5 @@ let g:which_key_map['s'] = [':Startify', 'Startify']
 
 let s:which_map.t = {
     \ 'name': '+toggle'
-    \ 'p' : ['setlocal paste', 'toggle paste'],
+    \ 'p' : [':set paste!', 'toggle paste'],
     \ }
