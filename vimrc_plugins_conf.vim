@@ -148,8 +148,8 @@ let g:vimwiki_table_mappings = 0
 let g:vimwiki_listsyms = '✗○◐●✓'
 
 " vim-which-key
-silent call which_key#register('\', "g:which_key_map")
-silent call which_key#register(' ', "g:space_prefix_dict")
+silent! call which_key#register('\', "g:which_key_map")
+silent! call which_key#register(' ', "g:space_prefix_dict")
 
 nnoremap <silent> \ :silent WhichKey '\'<cr>
 vnoremap <silent> \ :silent <c-u> :silent WhichKeyVisual '\'<cr>
