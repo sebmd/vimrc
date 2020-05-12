@@ -126,6 +126,6 @@ let g:which_key_map['f'] = [':Files', 'Files']
 let g:which_key_map['s'] = [':Startify', 'Startify']
 
 let s:which_map.t = {
-    \ 'name': '+toggle'
+    \ 'name': '+toggle',
     \ 'p' : [':set paste!', 'toggle paste'],
     \ }
