@@ -146,3 +146,21 @@ let wiki.nested_syntax = { 'python': 'python', 'sh': 'sh' }
 let g:vimwiki_list = [wiki]
 let g:vimwiki_table_mappings = 0
 let g:vimwiki_listsyms = '✗○◐●✓'
+
+" vim-which-key
+nnoremap <silent> \ :silent WhichKey '\'<cr>
+vnoremap <silent> \ :silent <c-u> :silent WhichKeyVisual '\'<cr>
+
+let g:which_key_map = {}
+
+hi default link WhichKey            Operator
+hi default link WhichKeySeparator   DiffAdded
+hi default link WhichKeyGroup       Identifier
+hi default link WhichKeyDesc        Function
+
+autocmd! FileType which_key
+autocmd FileType which_key set laststatus=0 noshowmode noruler
+    \| autocmd BufLeave <buffer> set laststatus=1 noshowmode ruler
+
+let g:which_key_map['/'] = ['<Plug>NERDCommenterToggle', 'comment']
+let g:which_key_map['e'] = ['NERDTreeToggle', 'NERDTree']
