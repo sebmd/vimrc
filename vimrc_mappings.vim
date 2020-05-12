@@ -125,7 +125,7 @@ let g:which_key_map['e'] = ['NERDTreeToggle', 'NERDTree']
 let g:which_key_map['f'] = [':Files', 'Files']
 let g:which_key_map['s'] = [':Startify', 'Startify']
 
-let s:which_map.t = {
+let g:which_map.t = {
     \ 'name': '+toggle',
     \ 'p' : [':set paste!', 'toggle paste'],
     \ }
