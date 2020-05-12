@@ -129,3 +129,8 @@ let g:which_key_map.t = {
     \ 'name': '+toggle',
     \ 'p' : [':set paste!', 'toggle paste'],
     \ }
+
+let g:which_key_map.s {
+    \ 'name': '+search',
+    \ 'f' : [':Files', 'Search files'],
+    \ }
