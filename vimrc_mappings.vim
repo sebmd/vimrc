@@ -140,7 +140,7 @@ let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 let g:which_key_map.t = {
     \ 'name' : '+toggle',
     \ 'p' : [':set paste!'             , 'toggle paste'],
-    \ 's' : [':Startify'               , 'Startify'],
+    \ 'S' : [':Startify'               , 'Startify'],
     \ 'n' : [':set nonumber!'          , 'line-numbers'],
     \ 'r' : [':set norelativenumber!'  , 'relative line nums'],
     \ 's' : [':let @/ = ""'            , 'remove search highlight'],
