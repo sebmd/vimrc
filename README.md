@@ -39,19 +39,54 @@ za pomocą pluginu `vim-which-key` można uzyskać pomoc dotyczącą skrótów k
 zaczynających się od znaku `\`.
 
 Kolejnym przydatnym pluginem jest `Cheat40` można go uruchomić za pomocą komendy
-`:Cheat40` lub za pomocą skrótu `<leader>?`
+`:Cheat40` lub za pomocą skrótu `<leader>c`
 
-| Skrót       | Opis                                     |
-|-------------|------------------------------------------|
-| `qq`        | Wyjście bez zapisania                    |
-| `qw`        | Zapisanie i wyjście                      |
-| `<leader>;` | Wejście w tryb komend `:`                |
-| `gh`        | Zamiennik `0`, czyli pierwszy znak linii |
-| `gl`        | Zamiennik `$`, czyli ostatni znak linii  |
-| `Ctrl-/`    | Komentuje linie w trybie NORMAL i VISUAL |
-| `<leader>n` | Uruchamia menadżer plików NERDTree       |
-| `<leader>c` | Uruchamia podręczną pomoc plugin Cheat40 |
-| `<leader>f` | Uruchamia polecenie `:Files`             |
+| Skrót            | Opis                                                              |
+|------------------|-------------------------------------------------------------------|
+| `qq`             | Wyjście bez zapisania                                             |
+| `qw`             | Zapisanie i wyjście                                               |
+| `<leader>;`      | Wejście w tryb komend `:`                                         |
+| `jj`, `kk`, `kj` | W trybie INSERT `jj`, `kk` i `kj` działa jak klawisz `ESC`        |
+| `gh`             | Zamiennik `0`, czyli pierwszy znak linii                          |
+| `gl`             | Zamiennik `$`, czyli ostatni znak linii                           |
+| `Ctrl-/`         | Komentuje linie w trybie NORMAL i VISUAL                          |
+| `<leader>n`      | Uruchamia menadżer plików NERDTree                                |
+| `<leader>c`      | Uruchamia podręczną pomoc plugin Cheat40                          |
+| `<leader>f`      | Uruchamia polecenie `:Files`                                      |
+| `<c-h>`          | przechodzi do okna po lewej                                       |
+| `<c-l>`          | przechodzi do okna po prawej                                      |
+| `<c-j>`          | przechodzi do okna niżej                                          |
+| `<c-k>`          | przechodzie do okna wyżej                                         |
+| `<leader>vv`     | otwiera plik `$MYVIMRC` czyli `~/.vim/vimrc`                      |
+| `<leader>vs`     | otwiera plik `$MYVIMRC` czyli `~/.vim/vimrc` z podziałem pionowym |
+| `<leader>vm`     | otwiera plik `~/.vim/vimrc_mappings.vim`                          |
+| `<leader>vp`     | otwiera plik `~/.vim/vimrc_plugins.vim`                           |
+| `<leader>r`      | przeładowuje konfigurację                                         |
+| `<leader>a`      | wyrównanie paragrafu i zawinięcie długich linii na 80 znaków      |
+| `<leader>cp`     | klonuje cały paragraf                                             |
+| `<leader>cd`     | zmienia katalog na katalog edytowanego pliku                      |
+| `<TAB>`          | przechodzi pomiędzy dwoma ostatnimi buforami                      |
+| `<leader>ts`     | otwiera terminal                                                  |
+| `<leader>tv`     | otwiera terminal w oknie po prawej                                |
+| `<c-/>`          | komentuje bieżącą linię                                           |
+
+## Skróty w trybie COMMAND
+
+| Skrót   | Opis                                                 |
+|---------|------------------------------------------------------|
+| `<c-k>` | strzałka w górę  - poruszanie się po historii komend |
+| `<c-j>` | strzałka w dół   - poruszanie się po historii komend |
+| `<c-h>` | strzałka w lewo  - poruszanie się w linii            |
+| `<c-l>` | strzałka w prawo - poruszanie się w linii            |
+
+## Skróty w trybie INSERT
+
+| Skrót   | Opis             |
+|---------|------------------|
+| `<c-k>` | strzałka w górę  |
+| `<c-j>` | strzałka w dół   |
+| `<c-h>` | strzałka w lewo  |
+| `<c-l>` | strzałka w prawo |
 
 ## Skróty klawiszowe Startify
 
