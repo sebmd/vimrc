@@ -39,7 +39,7 @@ za pomocą pluginu `vim-which-key` można uzyskać pomoc dotyczącą skrótów k
 zaczynających się od znaku `\`.
 
 Kolejnym przydatnym pluginem jest `Cheat40` można go uruchomić za pomocą komendy
-`:Cheat40`.
+`:Cheat40` lub za pomocą skrótu `<leader>?`
 
 | Skrót       | Opis                                     |
 |-------------|------------------------------------------|
