@@ -62,7 +62,7 @@ set modeline
 set modelines=5
 set nojoinspaces
 setlocal spelllang=pl
-set viewoptions-=options
+" set viewoptions-=options
 set viminfo+=n~/.vim/tmp/viminfo/viminfo
 set viewdir=~/.vim/tmp/view/
 set nobackup
