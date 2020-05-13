@@ -148,4 +148,4 @@ let g:which_key_map.s = {
     \ 'name': '+search',
     \ 'f' : [':Files', 'Search files'],
     \ 'r':  [':Rg', 'ripgrep'],
-
+    \ }
