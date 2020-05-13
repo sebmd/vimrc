@@ -161,6 +161,6 @@ hi default link WhichKeySeparator   DiffAdded
 hi default link WhichKeyGroup       Identifier
 hi default link WhichKeyDesc        Function
 
-autocmd! FileType which_key
-autocmd FileType which_key set laststatus=0 noshowmode noruler
-    \| autocmd BufLeave <buffer> set laststatus=1 noshowmode ruler
+" autocmd! FileType which_key
+" autocmd FileType which_key set laststatus=0 noshowmode noruler
+    " \| autocmd BufLeave <buffer> set laststatus=1 noshowmode ruler
