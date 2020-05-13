@@ -121,13 +121,12 @@ map gs <Plug>Sneak_;
 " map T <Plug>Sneak_T
 
 " Pierwsze mapowanie dla '\'
-let g:which_key_map['/'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
+let g:which_key_map['/'] = [ '<Plug>Commentary'           , 'comment' ]
 let g:which_key_map['.'] = [ ':e $MYVIMRC'                , 'open vimrc' ]
 let g:which_key_map[';'] = [ ':Commands'                  , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                     , 'balance windows' ]
 let g:which_key_map['d'] = [ ':bd'                        , 'delete buffer']
 let g:which_key_map['e'] = [ 'NERDTreeToggle'             , 'NERDTree']
-let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
 let g:which_key_map['f'] = [ ':Files'                     , 'search files' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['q'] = [ 'q'                          , 'quit' ]
