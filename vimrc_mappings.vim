@@ -138,18 +138,19 @@ let g:which_key_map['w'] = [ 'w'                          , 'write' ]
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 
 let g:which_key_map.t = {
-    \ 'name': '+toggle',
+    \ 'name' : '+toggle',
     \ 'p' : [':set paste!', 'toggle paste'],
     \ 's' : [':Startify', 'Startify'],
     \ }
 
 let g:which_key_map.s = {
-    \ 'name': '+search',
+    \ 'name' : '+search',
     \ 'f' : [':Files', 'Search files'],
-    \ 'r':  [':Rg', 'ripgrep'],
+    \ 'r' :  [':Rg', 'ripgrep'],
     \ }
 
-let g:which_key_map.g {
-    \ 'name': '+git',
-    \ 'a' : ['Git add %', 'add current file']
+let g:which_key_map.g = {
+    \ 'name' : '+git',
+    \ 'a' : ['Git add %', 'add current file'],
+    \ 'g' : ['!gp', 'add, commit, push'],
     \ }
