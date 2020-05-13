@@ -69,6 +69,9 @@ Kolejnym przydatnym pluginem jest `Cheat40` można go uruchomić za pomocą kome
 | `<leader>ts`     | otwiera terminal                                                  |
 | `<leader>tv`     | otwiera terminal w oknie po prawej                                |
 | `<c-/>`          | komentuje bieżącą linię                                           |
+| `<leader>n`      | uruchamia przeglądarkę plików NERDTree                            |
+| `<leader>f`      | wyszukuje pliki w bieżącym katalogu za pomocą FZF                 |
+| `th`             | wyłącza podświetlanie znalezionego wyrażenia                      |
 
 ## Skróty w trybie COMMAND
 
