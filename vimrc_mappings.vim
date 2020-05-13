@@ -152,6 +152,6 @@ let g:which_key_map.s = {
 let g:which_key_map.g = {
     \ 'name' : '+git',
     \ 'a' : ['Git add %', 'add current file'],
-    \ 'g' : ['!gp', 'add, commit, push'],
-    \ 'p' : ['!pu', 'git pull'],
+    \ 'g' : [':!gp', 'add, commit, push'],
+    \ 'p' : [':!pu', 'git pull'],
     \ }
