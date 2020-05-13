@@ -143,7 +143,7 @@ let g:which_key_map.t = {
     \ 'S' : [':Startify'               , 'Startify'],
     \ 'n' : [':set nonumber!'          , 'line-numbers'],
     \ 'r' : [':set norelativenumber!'  , 'relative line nums'],
-    \ 's' : [':let @/ = ""'            , 'remove search highlight'],
+    \ 'P' : [':let @/ = ""'            , 'remove search highlight'],
     \ 'v' : [':Vista!!'                , 'tag viewer'],
     \ }
 
