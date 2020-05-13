@@ -30,6 +30,17 @@ Komendy `PlugInstall` oraz `PlugUpdate`
 
 ## Skróty klawiszowe
 
+Edytor Vim posiada klawisz o nazwie **leader**. W tej konfiguracji tym klawiszem
+jest **SPACJA**. Jeśli znajdziesz zapis typu `<leader>n` oznacza on użycie kombinacji
+klaiwszy `spacja n`
+
+Skróty klawiszowe znajdują się w pliku `~/.vim/vimrc_mappings.vim`, dodatkowo
+za pomocą pluginu `vim-which-key` można uzyskać pomoc dotyczącą skrótów klawiszowych
+zaczynających się od znaku `\`.
+
+Kolejnym przydatnym pluginem jest `Cheat40` można go uruchomić za pomocą komendy
+`:Cheat40`.
+
 | Skrót       | Opis                                     |
 |-------------|------------------------------------------|
 | `qq`        | Wyjście bez zapisania                    |
