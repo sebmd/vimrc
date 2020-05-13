@@ -45,6 +45,7 @@ Kolejnym przydatnym pluginem jest `Cheat40` można go uruchomić za pomocą kome
 |-------------|------------------------------------------|
 | `qq`        | Wyjście bez zapisania                    |
 | `qw`        | Zapisanie i wyjście                      |
+| `<leader>;` | Wejście w tryb komend `:`                |
 | `gh`        | Zamiennik `0`, czyli pierwszy znak linii |
 | `gl`        | Zamiennik `$`, czyli ostatni znak linii  |
 | `Ctrl-/`    | Komentuje linie w trybie NORMAL i VISUAL |
