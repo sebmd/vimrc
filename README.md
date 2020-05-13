@@ -171,7 +171,7 @@ F{char}
 - [vim-snippets](https://github.com/honza/vim-snippets)
 - [vim-clap](https://github.com/liuchengxu/vim-clap)
 - [ctrlsf.vim](https://github.com/dyng/ctrlsf.vim)
-- [ultisnips)](https://github.com/SirVer/ultisnips))
+- [ultisnips](https://github.com/SirVer/ultisnips)
 - [targets.vim](https://github.com/wellle/targets.vim)
 - [vim-repeat](https://github.com/tpope/vim-repeat)
 - [vim-sensible](https://github.com/tpope/vim-sensible)
