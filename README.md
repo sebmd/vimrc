@@ -139,5 +139,5 @@ F{char}
 
 ## Pluginy dodatkowe
 
-- https://github.com/fatih/vim-go
-- https://github.com/ycm-core/YouCompleteMe
+- [vim-go](https://github.com/fatih/vim-go)
+- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
