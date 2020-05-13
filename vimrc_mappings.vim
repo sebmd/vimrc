@@ -121,7 +121,7 @@ map gs <Plug>Sneak_;
 " map T <Plug>Sneak_T
 
 " Pierwsze mapowanie dla '\'
-let g:which_key_map['/'] = [ 'Commentary'           , 'comment' ]
+let g:which_key_map['/'] = [ 'Commentary'                 , 'comment' ]
 let g:which_key_map['.'] = [ ':e $MYVIMRC'                , 'open vimrc' ]
 let g:which_key_map[';'] = [ ':Commands'                  , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                     , 'balance windows' ]
@@ -147,4 +147,9 @@ let g:which_key_map.s = {
     \ 'name': '+search',
     \ 'f' : [':Files', 'Search files'],
     \ 'r':  [':Rg', 'ripgrep'],
+    \ }
+
+let g:which_key_map.g {
+    \ 'name': '+git',
+    \ 'a' : ['Git add %', 'add current file']
     \ }
