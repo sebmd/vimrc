@@ -98,6 +98,9 @@ function instalacja_pluginow() {
 
     msg_info "Instaluję pluginy"
     vim -c ":PlugInstall" -c ":q" -c ":q"
+
+    msg_info "Pobieranie maple dla vim-clap"
+    ~/.vim/plugged/vim-clap/install.sh
 }
 
 function bajery() {
