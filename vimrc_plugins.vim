@@ -33,7 +33,7 @@ Plug 'justinmk/vim-sneak'
 Plug 'unblevable/quick-scope'
 Plug 'liuchengxu/vim-which-key'
 Plug 'honza/vim-snippets'
-Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
+Plug 'liuchengxu/vim-clap'
 Plug 'dyng/ctrlsf.vim'
 Plug 'SirVer/ultisnips'
 Plug 'wellle/targets.vim'
