@@ -1,3 +1,7 @@
+"
+" https://github.com/SebMD/vimrc
+"
+
 " WYłącza wsteczną kompatybilność z edytorem Vi
 set nocompatible
 
