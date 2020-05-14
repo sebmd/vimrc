@@ -26,3 +26,10 @@ function! CurTime()
   echom ftime
   " return ftime
 endfunction
+
+function! AppendModeline()
+    let l:modeline = printf(" vim: set fdm=%s ts=%d sw=%d tw=%d %set :",
+        \ &fdm, &tabstop, &shiftwidth, &textwidth, &expandtab ? '' : 'no')
+    let l:modeline = substitute(&commentstring, "%s", l:modeline, "")
+    call append(line("$"), l:modeline)
+endfunction
