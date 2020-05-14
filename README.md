@@ -190,3 +190,4 @@ F{char}
 
 - [vim-go](https://github.com/fatih/vim-go)
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+- [coc](https://github.com/neoclide/coc.nvim)
