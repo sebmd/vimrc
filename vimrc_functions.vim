@@ -1,4 +1,6 @@
-
+"
+" https://github.com/SebMD/vimrc
+"
 " ~/.vim/vimrc
 
 " Files
