@@ -38,8 +38,6 @@ set termguicolors
 silent! colorscheme base16-eighties
 set t_Co=256
 set background=dark
-" silent! colorscheme base16-eighties
-silent! colorscheme gruvbox
 
 " dzielenie okien
 set splitright
