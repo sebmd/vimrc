@@ -137,7 +137,7 @@ let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'     ]
 let g:which_key_map['w'] = [ 'w'              , 'write'           ]
 let g:which_key_map['z'] = [ 'Goyo'           , 'zen'             ]
 
-let g:which_key_map.t = {
+let g:which_key_map.p = {
     \ 'name' : '+toggle',
     \ 'p' : [':set paste!'             , 'toggle paste'             ],
     \ 'S' : [':Startify'               , 'Startify'                 ],
