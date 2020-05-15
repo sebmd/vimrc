@@ -120,6 +120,12 @@ map gs <Plug>Sneak_;
 " map t <Plug>Sneak_t
 " map T <Plug>Sneak_T
 
+" floterm
+let g:floaterm_keymap_toggle = '<F1>'
+let g:floaterm_keymap_next   = '<F2>'
+let g:floaterm_keymap_prev   = '<F3>'
+let g:floaterm_keymap_new    = '<F4>'
+
 " Pierwsze mapowanie dla '\'
 let g:which_key_map['/'] = [ 'Commentary'     , 'comment'         ]
 let g:which_key_map['.'] = [ ':e $MYVIMRC'    , 'open vimrc'      ]
