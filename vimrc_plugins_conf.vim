@@ -13,13 +13,13 @@ let g:startify_lists = [
       \ ]
 
 let g:startify_commands = [
-    \ {'c': ['Current Directory', 'e .']},
-    \ {'v': ['VIMRC', 'e $MYVIMRC']},
-    \ {'V': ['Vimwiki', 'VimwikiIndex']},
-    \ {'s': ['Shortcuts', 'vimgrep /## Skróty klawiszowe/ ~/.vim/README.md']},
-    \ {'z': ['ZSHRC', 'e ~/.zshrc']},
-    \ {'b': ['Bashrc', 'e ~/.bashrc']},
-    \ {'a': ['Aliases', 'e ~/.aliases']},
+    \ {'c': ['current directory', 'e .']},
+    \ {'v': ['vimrc', 'e $MYVIMRC']},
+    \ {'V': ['vimwiki', 'VimwikiIndex']},
+    \ {'s': ['shortcuts', 'vimgrep /## Skróty klawiszowe/ ~/.vim/README.md']},
+    \ {'z': ['zshrc', 'e ~/.zshrc']},
+    \ {'b': ['bashrc', 'e ~/.bashrc']},
+    \ {'a': ['aliases', 'e ~/.aliases']},
     \ {'t': ['Vim Tutor', '! vimtutor']},
     \ {'h': ['Vim Refernce', 'h ref']},
     \ {'S': ['Vim Script Intro', 'h vim-script-intro']},
