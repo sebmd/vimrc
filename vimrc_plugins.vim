@@ -41,6 +41,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'RRethy/vim-illuminate'
 Plug 'junegunn/limelight.vim'
+Plug 'voldikss/vim-floaterm'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'vimwiki/vimwiki'
