@@ -143,7 +143,7 @@ let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'     ]
 let g:which_key_map['w'] = [ 'w'              , 'write'           ]
 let g:which_key_map['z'] = [ 'Goyo'           , 'zen'             ]
 
-let g:which_key_map.p = {
+let g:which_key_map.t = {
     \ 'name' : '+toggle',
     \ 'p' : [':set paste!'             , 'toggle paste'             ],
     \ 'S' : [':Startify'               , 'Startify'                 ],
@@ -275,18 +275,3 @@ let g:which_key_map.b = {
     \ 'p' : ['bprevious' , 'previous-buffer'    ],
     \ '?' : ['Buffers'   , 'fzf-buffer'         ],
     \ }
-
-let g:which_key_map.t = {
-      \ 'name' : '+terminal' ,
-      \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
-      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
-      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
-      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
-      \ 'n' : [':FloatermNew node'                              , 'node'],
-      \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
-      \ 'p' : [':FloatermNew python'                            , 'python'],
-      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
-      \ 't' : [':FloatermToggle'                                , 'toggle'],
-      \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
-      \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
-      \ }

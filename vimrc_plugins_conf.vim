@@ -164,11 +164,3 @@ hi default link WhichKeyDesc        Function
 " autocmd! FileType which_key
 " autocmd FileType which_key set laststatus=0 noshowmode noruler
     " \| autocmd BufLeave <buffer> set laststatus=1 noshowmode ruler
-
-" Floaterm
-let g:floaterm_gitcommit='floaterm'
-let g:floaterm_autoinsert=1
-let g:floaterm_width=0.8
-let g:floaterm_height=0.8
-let g:floaterm_wintitle=0
-let g:floaterm_autoclose=1
