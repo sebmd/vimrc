@@ -15,7 +15,7 @@ let g:startify_lists = [
 let g:startify_commands = [
     \ {'c': ['current directory', 'e .']},
     \ {'v': ['vimrc', 'e $MYVIMRC']},
-    \ {'V': ['vimwiki', 'VimwikiIndex']},
+    \ {'w': ['vimwiki', 'VimwikiIndex']},
     \ {'s': ['shortcuts', 'vimgrep /## Skróty klawiszowe/ ~/.vim/README.md']},
     \ {'z': ['zshrc', 'e ~/.zshrc']},
     \ {'b': ['bashrc', 'e ~/.bashrc']},
