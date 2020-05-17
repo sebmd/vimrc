@@ -105,6 +105,8 @@ nmap <leader>o :only<cr>
 " NERDTree <leader>n
 nnoremap <silent> <expr> <Leader>n g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
 
+nnoremap <leader>e :CocCommand explorer<cr>
+
 " FZF / FZF.vim
 nnoremap <leader>f :Files<cr>
 
@@ -120,12 +122,6 @@ map gs <Plug>Sneak_;
 " map t <Plug>Sneak_t
 " map T <Plug>Sneak_T
 
-" floterm
-let g:floaterm_keymap_toggle = '<F1>'
-let g:floaterm_keymap_next   = '<F2>'
-let g:floaterm_keymap_prev   = '<F3>'
-let g:floaterm_keymap_new    = '<F4>'
-
 " Pierwsze mapowanie dla '\'
 let g:which_key_map['/'] = [ 'Commentary'     , 'comment'             ]
 let g:which_key_map['.'] = [ ':e $MYVIMRC'    , 'open vimrc'          ]
@@ -133,7 +129,6 @@ let g:which_key_map[';'] = [ ':Commands'      , 'commands'            ]
 let g:which_key_map['='] = [ '<C-W>='         , 'balance windows'     ]
 let g:which_key_map['d'] = [ ':bd'            , 'delete buffer'       ]
 let g:which_key_map['e'] = [ 'NERDTreeToggle' , 'NERDTree'            ]
-let g:which_key_map['E'] = [ 'Coc Explorer'   , 'CocCommand explorer' ]
 let g:which_key_map['f'] = [ ':Files'         , 'search files'        ]
 let g:which_key_map['h'] = [ '<C-W>s'         , 'split below'         ]
 let g:which_key_map['q'] = [ 'q'              , 'quit'                ]
