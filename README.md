@@ -52,6 +52,7 @@ Kolejnym przydatnym pluginem jest `Cheat40` można go uruchomić za pomocą kome
 | `gl`             | Zamiennik `$`, czyli ostatni znak linii                           |
 | `Ctrl-/`         | Komentuje linie w trybie NORMAL i VISUAL                          |
 | `<leader>n`      | Uruchamia menadżer plików NERDTree                                |
+| `<leader>e`      | Uruchamia menadżer plików CocExplorer                             |
 | `<leader>c`      | Uruchamia podręczną pomoc plugin Cheat40                          |
 | `<leader>f`      | Uruchamia polecenie `:Files`                                      |
 | `<c-h>`          | przechodzi do okna po lewej                                       |
