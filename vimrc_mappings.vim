@@ -127,26 +127,27 @@ let g:floaterm_keymap_prev   = '<F3>'
 let g:floaterm_keymap_new    = '<F4>'
 
 " Pierwsze mapowanie dla '\'
-let g:which_key_map['/'] = [ 'Commentary'     , 'comment'         ]
-let g:which_key_map['.'] = [ ':e $MYVIMRC'    , 'open vimrc'      ]
-let g:which_key_map[';'] = [ ':Commands'      , 'commands'        ]
-let g:which_key_map['='] = [ '<C-W>='         , 'balance windows' ]
-let g:which_key_map['d'] = [ ':bd'            , 'delete buffer'   ]
-let g:which_key_map['e'] = [ 'NERDTreeToggle' , 'NERDTree'        ]
-let g:which_key_map['f'] = [ ':Files'         , 'search files'    ]
-let g:which_key_map['h'] = [ '<C-W>s'         , 'split below'     ]
-let g:which_key_map['q'] = [ 'q'              , 'quit'            ]
-let g:which_key_map['r'] = [ ':Ranger'        , 'ranger'          ]
-let g:which_key_map['S'] = [ ':Startify'      , 'start screen'    ]
-let g:which_key_map['T'] = [ ':Rg'            , 'search text'     ]
-let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'     ]
-let g:which_key_map['w'] = [ 'w'              , 'write'           ]
-let g:which_key_map['z'] = [ 'Goyo'           , 'zen'             ]
+let g:which_key_map['/'] = [ 'Commentary'     , 'comment'             ]
+let g:which_key_map['.'] = [ ':e $MYVIMRC'    , 'open vimrc'          ]
+let g:which_key_map[';'] = [ ':Commands'      , 'commands'            ]
+let g:which_key_map['='] = [ '<C-W>='         , 'balance windows'     ]
+let g:which_key_map['d'] = [ ':bd'            , 'delete buffer'       ]
+let g:which_key_map['e'] = [ 'NERDTreeToggle' , 'NERDTree'            ]
+let g:which_key_map['E'] = [ 'Coc Explorer'   , 'CocCommand explorer' ]
+let g:which_key_map['f'] = [ ':Files'         , 'search files'        ]
+let g:which_key_map['h'] = [ '<C-W>s'         , 'split below'         ]
+let g:which_key_map['q'] = [ 'q'              , 'quit'                ]
+let g:which_key_map['r'] = [ ':Ranger'        , 'ranger'              ]
+let g:which_key_map['S'] = [ ':Startify'      , 'start screen'        ]
+let g:which_key_map['T'] = [ ':Rg'            , 'search text'         ]
+let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'         ]
+let g:which_key_map['w'] = [ 'w'              , 'write'               ]
+let g:which_key_map['z'] = [ 'Goyo'           , 'zen'                 ]
 
 let g:which_key_map.t = {
     \ 'name' : '+toggle',
     \ 'p' : [':set paste!'             , 'toggle paste'             ],
-    \ 'S' : [':Startify'               , 'Startify'                 ],
+    \ 's' : [':Startify'               , 'Startify'                 ],
     \ 'n' : [':set nonumber!'          , 'line-numbers'             ],
     \ 'r' : [':set norelativenumber!'  , 'relative line nums'       ],
     \ 'P' : [':let @/ = ""'            , 'remove search highlight'  ],
