@@ -20,15 +20,15 @@ inore kj <esc>
 
 " poruszanie się po historii poleceń w trybie COMMAND-LINE za pomocą
 " Ctrl-j i Ctrl-k dodatkowo w lewo i w prawo za pomocą Ctrl-h i Ctrl-l
-cmap <c-k> <down>
-cmap <c-j> <up>
+cmap <c-k> <up>
+cmap <c-j> <down>
 cmap <c-h> <left>
 cmap <c-l> <right>
 
 " poruszanie kursorem w trybie INSERT nie wymaga wejścia w tryb NORMAL
 " Ctrl-h, Ctrl-j, Ctrl-k i Ctrl-l
-inoremap <c-k> <down>
-inoremap <c-j> <up>
+inoremap <c-k> <up>
+inoremap <c-j> <down>
 inoremap <c-h> <left>
 inoremap <c-l> <right>
 
