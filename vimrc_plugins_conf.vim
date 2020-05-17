@@ -28,8 +28,8 @@ let g:startify_commands = [
 hi StartifyHeader guifg=#FFD700
 
 let g:startify_custom_header = [
-    \ ' Vim STARTIFY_USERNAME ',
-    \ '--------------'
+    \ ' Siema! STARTIFY_USERNAME ',
+    \ '--------------------------'
     \ ]
 
 " Airline
