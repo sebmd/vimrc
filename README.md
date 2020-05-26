@@ -10,7 +10,19 @@ Po instalacji Vim powinien wyglądać jak na [screenshotach](https://github.com/
 ## TOC
 
 - [Wymagane oprogramowanie](#wymagane-oprogramowanie)
-- Instalacja
+- [Instalacja](#instalacja)
+- [Ustawienia](#ustawienia)
+- [Zarządzanie pluginami](#zarządzanie-pluginami)
+- [Skróty klawiszowe](#skroty-klawiszowe)
+- [Skróty w trybie COMMAND](#skróty-w-trybie-command)
+- [Skróty w trybie INSERT](#skróty-w-trybie-insert)
+- [Skróty klawiszowe Startify](#skróty-klawiszowe-startify)
+- [Przydatne komendy](#przydatne komendy)
+- [Zarządzanie sesjami](#zarządzanie-sesjami)
+- [Plugin vim-sneak](#plugin-vim-sneak)
+- [Screenshoty](#screenshoty)
+- [Zainstalowane pluginy](#zainstalowane-pluginy)
+- [Dodatkowe pluginy](#pluginy-dodatkowe)
 
 ## Wymagane oprogramowanie
 
