@@ -2,7 +2,7 @@
 
 Repozytorium zawiera skrypt do automatycznej konfiguracji edytora Vim.
 
-Po instalacji Vim powinien wyglądać jak na [screenshotach](https://github.com/SebMD/vimrc#screenshoty).
+Po instalacji Vim powinien wyglądać jak na [screenshotach](https://github.com/sebmd/vimrc#screenshoty).
 
 
 **Projekt jest obecnie w fazie rozwojowej i pewnie jeszcze sporo się zmieni.***
