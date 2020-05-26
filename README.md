@@ -146,17 +146,17 @@ F{char}
 
 ### Ekran startowy
 
-![Ekran startowy](img/ss1.png)
+![Ekran startowy](img/ss1.png =930x759)
 
 ### Podręczna pomoc
 
 Za pomocą klawisza `\` włącza się podręczną pomoc
 
-![Podręczna pomoc](img/ss2.png)
+![Podręczna pomoc](img/ss2.png =930x759)
 
 ### Schemat kolorów
 
-![Schemat kolorów](img/ss3.png)
+![Schemat kolorów](img/ss3.png =930x759)
 
 ## Zainstalowane pluginy
 
