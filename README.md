@@ -146,7 +146,7 @@ F{char}
 
 ### Ekran startowy
 
-<img src="img/ss1.png" width="930" height="759"/>
+<img src="img/ss1.png" width="630" height="759"/>
 
 ### Podręczna pomoc
 
