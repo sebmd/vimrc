@@ -146,7 +146,7 @@ F{char}
 
 ### Ekran startowy
 
-![Ekran startowy](img/ss1.png =930x759)
+<img src="img/ss1.png" width="930" height="759"/>
 
 ### Podręczna pomoc
 
