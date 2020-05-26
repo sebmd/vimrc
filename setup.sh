@@ -86,7 +86,7 @@ function mkdirs() {
 function download_repo() {
     msg_info "Pobieram repozytorium vimrc"
     git clone https://github.com/SebMD/vimrc ~/.vim --depth=1
-    mv ~/.vim/config/* ~/vim/
+    mv ~/.vim/config/* ~/.vim/
     if [[ $? -ne 0 ]]; then
         msg_error "Coś poszło nie tak :("
     fi
