@@ -43,8 +43,8 @@ bash ./setup.sh
 
 ## Ustawienia
 
-- Taby są ustawione jako 4 znaki spacji
-- Linie są automatycznie zawijane przy 80 kolumnie linii
+- Taby są ustawione na 4 znaki spacji
+- Linie są automatycznie zawijane przy 80 kolumnie w linii
 
 
 ## Zarządzanie pluginami
