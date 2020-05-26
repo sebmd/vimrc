@@ -1,5 +1,9 @@
 # vimrc
 
+Repozytorium zawiera skrypt do automatycznej konfiguracji edytora Vim.
+
+**Projekt jest obecnie w fazie rozwojowej i pewnie jeszcze sporo się zmieni.***
+
 ## Wymagane oprogramowanie
 
 - Git
