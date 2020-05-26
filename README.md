@@ -144,7 +144,19 @@ F{char}
 
 ## Screenshoty
 
+### Ekran startowy
+
 ![Ekran startowy](img/ss1.png)
+
+### Podręczna pomoc
+
+Za pomocą klawisza `\` włącza się podręczną pomoc
+
+![Podręczna pomoc](img/ss2.png)
+
+### Schemat kolorów
+
+![Schemat kolorów](img/ss3.png)
 
 ## Zainstalowane pluginy
 
