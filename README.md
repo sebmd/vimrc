@@ -142,6 +142,10 @@ t{char}
 F{char}
 ```
 
+## Screenshoty
+
+![Ekran startowy](img/ss1.png)
+
 ## Zainstalowane pluginy
 
 - [NERDTree](https://github.com/scrooloose/nerdtree)
