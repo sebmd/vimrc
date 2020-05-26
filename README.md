@@ -146,13 +146,13 @@ F{char}
 
 ### Ekran startowy
 
-<img src="img/ss1.png" width="630" height="759"/>
+<img src="img/ss1.png" width="651" height="531"/>
 
 ### Podręczna pomoc
 
 Za pomocą klawisza `\` włącza się podręczną pomoc
 
-![Podręczna pomoc](img/ss2.png)
+<img src="img/ss2.png" width="744" height="607"/>
 
 ### Schemat kolorów
 
