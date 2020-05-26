@@ -152,11 +152,11 @@ F{char}
 
 Za pomocą klawisza `\` włącza się podręczną pomoc
 
-![Podręczna pomoc](img/ss2.png =930x759)
+![Podręczna pomoc](img/ss2.png)
 
 ### Schemat kolorów
 
-![Schemat kolorów](img/ss3.png =930x759)
+<img src="img/ss3.png" width="930" height="759"/>
 
 ## Zainstalowane pluginy
 
