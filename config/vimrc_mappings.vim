@@ -124,7 +124,6 @@ map gs <Plug>Sneak_;
 
 " Pierwsze mapowanie dla '\'
 let g:which_key_map['/'] = [ 'Commentary'     , 'comment'             ]
-let g:which_key_map['.'] = [ ':e $MYVIMRC'    , 'open vimrc'          ]
 let g:which_key_map[';'] = [ ':Commands'      , 'commands'            ]
 let g:which_key_map['='] = [ '<C-W>='         , 'balance windows'     ]
 let g:which_key_map['d'] = [ ':bd'            , 'delete buffer'       ]
@@ -138,6 +137,15 @@ let g:which_key_map['T'] = [ ':Rg'            , 'search text'         ]
 let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'         ]
 let g:which_key_map['w'] = [ 'w'              , 'write'               ]
 let g:which_key_map['z'] = [ 'Goyo'           , 'zen'                 ]
+
+let g:which_key_map.'.' = {
+    \ 'name' : '+dot-files',
+    \ 'v' : [':e $MYVIMRC'                      , 'open vimrc'               ],
+    \ 's' : [':e ~/.vim/vimrc_settings.vim'     , 'open vimrc_settings'      ],
+    \ 'p' : [':e ~/.vim/vimrc_plugins.vim'      , 'open vimrc_plugins'       ],
+    \ 'c' : [':e ~/.vim/vimrc_plugins_conf.vim' , 'open vimrc_plugins_conf'  ],
+    \ 'm' : [':e ~/.vim/vimrc_mappings.vim'     , 'open vimrc_mappings'      ],
+    \ }
 
 let g:which_key_map.t = {
     \ 'name' : '+toggle',
