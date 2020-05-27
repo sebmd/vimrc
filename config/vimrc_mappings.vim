@@ -126,25 +126,35 @@ map gs <Plug>Sneak_;
 let g:which_key_map['/'] = [ 'Commentary'     , 'comment'             ]
 let g:which_key_map[';'] = [ ':Commands'      , 'commands'            ]
 let g:which_key_map['='] = [ '<C-W>='         , 'balance windows'     ]
+let g:which_key_map['S'] = [ ':Startify'      , 'start screen'        ]
+let g:which_key_map['T'] = [ ':Rg'            , 'search text'         ]
 let g:which_key_map['d'] = [ ':bd'            , 'delete buffer'       ]
 let g:which_key_map['e'] = [ 'NERDTreeToggle' , 'NERDTree'            ]
 let g:which_key_map['f'] = [ ':Files'         , 'search files'        ]
 let g:which_key_map['h'] = [ '<C-W>s'         , 'split below'         ]
 let g:which_key_map['q'] = [ 'q'              , 'quit'                ]
 let g:which_key_map['r'] = [ ':Ranger'        , 'ranger'              ]
-let g:which_key_map['S'] = [ ':Startify'      , 'start screen'        ]
-let g:which_key_map['T'] = [ ':Rg'            , 'search text'         ]
 let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'         ]
 let g:which_key_map['w'] = [ 'w'              , 'write'               ]
 let g:which_key_map['z'] = [ 'Goyo'           , 'zen'                 ]
 
-let g:which_key_map.'.' = {
-    \ 'name' : '+dot-files',
-    \ 'v' : [':e $MYVIMRC'                      , 'open vimrc'               ],
-    \ 's' : [':e ~/.vim/vimrc_settings.vim'     , 'open vimrc_settings'      ],
-    \ 'p' : [':e ~/.vim/vimrc_plugins.vim'      , 'open vimrc_plugins'       ],
-    \ 'c' : [':e ~/.vim/vimrc_plugins_conf.vim' , 'open vimrc_plugins_conf'  ],
-    \ 'm' : [':e ~/.vim/vimrc_mappings.vim'     , 'open vimrc_mappings'      ],
+" t - toggle
+" D - dot.files
+" s - search
+" g - git
+" c - clap
+" w - windows
+" b - buffers
+
+let g:which_key_map.D = {
+    \ 'name' : '+dot.files',
+    \ 'b' : [':e ~/.bashrc'                     , 'bashrc'              ],
+    \ 'c' : [':e ~/.vim/vimrc_plugins_conf.vim' , 'vimrc_plugins_conf'  ],
+    \ 'm' : [':e ~/.vim/vimrc_mappings.vim'     , 'vimrc_mappings'      ],
+    \ 'p' : [':e ~/.vim/vimrc_plugins.vim'      , 'vimrc_plugins'       ],
+    \ 's' : [':e ~/.vim/vimrc_settings.vim'     , 'vimrc_settings'      ],
+    \ 'v' : [':e $MYVIMRC'                      , 'vimrc'               ],
+    \ 'z' : [':e ~/.zshrc'                      , 'zshrc'               ],
     \ }
 
 let g:which_key_map.t = {
