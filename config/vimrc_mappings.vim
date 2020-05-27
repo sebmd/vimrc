@@ -4,6 +4,8 @@
 " wyjście z edytora bez zapisania
 nmap qq :q<cr>
 
+nmap <leader>q :q<cr>
+
 " zapisanie i wyjście z edytora
 nmap qw :x<cr>
 
@@ -132,10 +134,7 @@ let g:which_key_map['d'] = [ ':bd'            , 'delete buffer'       ]
 let g:which_key_map['e'] = [ 'NERDTreeToggle' , 'NERDTree'            ]
 let g:which_key_map['f'] = [ ':Files'         , 'search files'        ]
 let g:which_key_map['h'] = [ '<C-W>s'         , 'split below'         ]
-let g:which_key_map['q'] = [ 'q'              , 'quit'                ]
-let g:which_key_map['r'] = [ ':Ranger'        , 'ranger'              ]
 let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'         ]
-let g:which_key_map['w'] = [ 'w'              , 'write'               ]
 let g:which_key_map['z'] = [ 'Goyo'           , 'zen'                 ]
 
 " t - toggle
