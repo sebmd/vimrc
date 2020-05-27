@@ -151,8 +151,8 @@ let g:vimwiki_listsyms = '✗○◐●✓'
 silent! call which_key#register('\', "g:which_key_map")
 silent! call which_key#register(' ', "g:space_prefix_dict")
 
-nnoremap <silent> \ :silent WhichKey '\'<cr>
-vnoremap <silent> \ :silent <c-u> :silent WhichKeyVisual '\'<cr>
+nnoremap <silent> \ :<c-u>WhichKey '\'<cr>
+vnoremap <silent> \ :<c-u> :silent WhichKeyVisual '\'<cr>
 
 let g:which_key_map = {}
 
