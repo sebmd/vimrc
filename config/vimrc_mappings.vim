@@ -130,7 +130,6 @@ let g:which_key_map[';'] = [ ':Commands'      , 'commands'            ]
 let g:which_key_map['='] = [ '<C-W>='         , 'balance windows'     ]
 let g:which_key_map['S'] = [ ':Startify'      , 'start screen'        ]
 let g:which_key_map['T'] = [ ':Rg'            , 'search text'         ]
-let g:which_key_map['d'] = [ ':bd'            , 'delete buffer'       ]
 let g:which_key_map['e'] = [ 'NERDTreeToggle' , 'NERDTree'            ]
 let g:which_key_map['f'] = [ ':Files'         , 'search files'        ]
 let g:which_key_map['h'] = [ '<C-W>s'         , 'split below'         ]
@@ -145,14 +144,18 @@ let g:which_key_map['z'] = [ 'Goyo'           , 'zen'                 ]
 " w - windows
 " b - buffers
 
-let g:which_key_map.D = {
+" d dot.files
+let g:which_key_map.d = {
     \ 'name' : '+dot.files',
-    \ 'b' : [':e ~/.bashrc'                     , 'bashrc'              ],
-    \ 'c' : [':e ~/.vim/vimrc_plugins_conf.vim' , 'vimrc_plugins_conf'  ],
+    \ 'v' : [':e $MYVIMRC'                      , 'vimrc'               ],
+    \ 's' : [':e ~/.vim/vimrc_settings.vim'     , 'vimrc_settings'      ],
     \ 'm' : [':e ~/.vim/vimrc_mappings.vim'     , 'vimrc_mappings'      ],
     \ 'p' : [':e ~/.vim/vimrc_plugins.vim'      , 'vimrc_plugins'       ],
-    \ 's' : [':e ~/.vim/vimrc_settings.vim'     , 'vimrc_settings'      ],
-    \ 'v' : [':e $MYVIMRC'                      , 'vimrc'               ],
+    \ 'c' : [':e ~/.vim/vimrc_plugins_conf.vim' , 'vimrc_plugins_conf'  ],
+    \ 'f' : [':e ~/.vim/vimrc_functions.vim'    , 'vimrc_functions'     ],
+    \ 'a' : [':e ~/.vim/vimrc_abbr.vim'         , 'vimrc_abbr'          ],
+    \ 'e' : [':e ~/.vim/vimrc_enc.vim'          , 'vimrc_enc'           ],
+    \ 'b' : [':e ~/.bashrc'                     , 'bashrc'              ],
     \ 'z' : [':e ~/.zshrc'                      , 'zshrc'               ],
     \ }
 
