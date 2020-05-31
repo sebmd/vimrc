@@ -135,9 +135,11 @@ let g:which_key_map['f'] = [ ':Files'         , 'search files'        ]
 let g:which_key_map['h'] = [ '<C-W>s'         , 'split below'         ]
 let g:which_key_map['v'] = [ '<C-W>v'         , 'split right'         ]
 let g:which_key_map['z'] = [ 'Goyo'           , 'zen'                 ]
+let g:which_key_map['q'] = [ 'q'              , 'quit vim'            ]
+let g:which_key_map['x'] = [ 'x'              , 'save & quit vim'     ]
 
 " t - toggle
-" D - dot.files
+" d - dot.files
 " s - search
 " g - git
 " c - clap
