@@ -53,7 +53,7 @@ function soft() {
             printf "\nInstalacja pakietóœ dla dystrybucji typu Debian:\n\n"
             printf "\t${GREEN}sudo apt install git curl ripgrep nodejs${NC}\n"
             printf "\nInstalacja pakietów dla dystrybucji Fedora:\n\n"
-            printf "\t${GREEN}sudo dnf install git curl ripgrep node${NC}\n\n"
+            printf "\t${GREEN}sudo dnf install git curl ripgrep nodejs${NC}\n\n"
             exit 1
         fi
     done
