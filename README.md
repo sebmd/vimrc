@@ -45,7 +45,8 @@ bash ./setup.sh
 
 - Taby są ustawione na 4 znaki spacji
 - Linie są automatycznie zawijane przy 80 kolumnie w linii
-
+- Jako klawisz LEADER ustawiona jest **spacja**
+- Podręczny system pomocy jest dostępna pod klawiszem `\` (which-key)
 
 ## Zarządzanie pluginami
 
