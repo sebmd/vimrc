@@ -185,6 +185,7 @@ Za pomocą klawisza `\` włącza się podręczną pomoc
 ## Zainstalowane pluginy
 
 - [NERDTree](https://github.com/scrooloose/nerdtree)
+- [any-jump.vim](https://github.com/pechorin/any-jump.vim)
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [ctrlsf.vim](https://github.com/dyng/ctrlsf.vim)
 - [fzf-preview.vim](https://github.com/chengzeyi/fzf-preview.vim)
